@@ -1,0 +1,483 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'GothamRounded Medium', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8c9398;
+    background: white;
+    min-width: 1160px;
+}
+.page-header {
+    background-image: url("../pic/headerbckgrnd.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1600px 860px;
+    text-align: top center;
+    padding-top: 63px;
+    min-height: 737px;
+}
+.header-wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+.clearfix{
+    overflow:auto;
+}
+.navigation-menu {
+    float: right;
+    margin-right: 15px;
+    width: 25px;
+    padding-top: 10px;
+}
+.menu-icon span {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: #372c3c;
+}
+
+.menu-icon span::before,
+.menu-icon span::after {
+  display: block;
+  width: 25px;
+  content: "";
+  height: 4px;
+  background-color: #372c3c;
+  
+}
+.menu-icon span::before {
+    transform: translate(0, -10px);
+    
+}
+.menu-icon span::after {
+    transform: translate(0, 5px);
+}
+
+.header-content{
+    margin-top: 190px;
+    width: 615px;
+    margin-left: 263px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+h1 {
+   font-family: "GothamRounded Book", sans-serif;
+   font-weight: normal;
+   font-size: 40px;
+   line-height: 1;
+   color: #353535;
+   letter-spacing: 0.3em;
+}
+h1 span {
+    color: #a1a9b0;
+}
+.header-content p {
+    font-family: "GothamRounded Book", sans-serif;
+    font-size: 15px;
+    color: #8c9398;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    margin-bottom: 60px;
+}
+.header-content p em{
+    font-family: "GothamRounded MediumItalic";
+}
+
+.btn {
+    color: #ffffff;
+    font-family: "GothamRounded Book", sans-serif;
+    letter-spacing: 4px;
+    font-size: 15px;
+    text-transform: uppercase;
+    vertical-align: top;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    background-color: #3dc9b3;
+    border: 2px solid #3dc9b3;
+    border-radius: 5px;
+    box-shadow:  0 3px 0 #309383;
+}
+
+
+.divider {
+    display: flex;
+    width: 555px;
+    vertical-align: middle;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 45px;
+}
+.divider div{
+    margin-top: 6px;
+}
+.divider div:last-child{
+    float: right;
+}
+.divider img {
+    padding: 0 35px;
+}
+h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #353535;
+    letter-spacing: 0.15em;
+    line-height: 1.2;
+    font-weight: 400;
+}
+/* ABOUT US */
+.about-us {
+    background-color: #f3f5f8;
+    padding: 90px 0;
+    text-align: center;
+    min-height: 305px;
+}
+.about-wrapper{
+    width: 745px;
+    margin: 0 auto;
+}
+.about-wrapper .divider {
+    margin-left: 90px;
+}
+.about-wrapper p {
+    line-height: 30px;
+    letter-spacing: 0.01em;
+}
+.about-wrapper p span {
+    color: #353535;
+}
+
+/* SERVICES */
+.services {
+    background-color: #ffffff;
+    padding-top: 90px;
+    padding-bottom: 105px;
+    text-align: center;
+}
+.services-wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+.service-items ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+.service-item {
+    float: left;
+    text-align: center;
+    padding-top: 180px;
+    width: 340px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+h3 {
+    font-size: 15px;
+    line-height: 20px;
+    color: #353535;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 35px;
+}
+.design {
+    background: url("../pic/design.png") top center no-repeat;
+}
+.development {
+    background: url("../pic/development.png") top center no-repeat;
+}
+.loveya {
+    background: url("../pic/heart.png") top center no-repeat;
+}
+.services-wrapper .divider {
+    margin-left: 285px;
+}
+
+/* IPHONE */
+.iphone {
+    background-image: linear-gradient(to left, #ffffff 49%, #f3f5f8 51%);
+    min-height: 700px;
+}
+.iphone-wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+.block-iphone {
+    width: 585px;
+    min-height: 700px;
+    float: left;
+    background: url("../pic/iphone.png") no-repeat;
+    background-position: -230px 0;
+}
+.block-iphone-text {
+    width: 460px;
+    float: right;
+    text-align: center;
+    margin-top: 125px;   
+}
+.block-iphone-text p {
+    text-align: justify;
+    line-height: 20px;
+    font-style: normal;
+}
+.iphone .divider {
+    width: 428px;
+    padding-bottom: 20px;
+    padding-left: 13px;
+}
+
+/* PHRASE */
+.phrase {
+    background: url(../pic/phrase-bg.jpg) no-repeat center;
+    min-height: 300px;
+    background-size: cover;
+    text-align: center;
+}
+.phrase-wrapper {
+    font-family: "GothamRounded Book", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 60px;
+    min-width: 615px;
+}
+.phrase-text-big {
+    font-size: 40px;
+    letter-spacing: 0.25em;
+    line-height: 0;
+}
+.phrase-text-small {
+    font-size: 25px;
+    letter-spacing: 0.3em;
+    line-height: 1.2;
+}
+.phrase-text-small em{
+    font-family: "GothamRounded MediumItalic";
+    font-weight: lighter;
+}
+
+/* ADVANTAGES */
+.advantages {
+    background-color: #ffffff;
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 180px;
+}
+.advantages-wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+.advantages-wrapper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.advantage-item {
+    width: 360px;
+    padding: 0 15px;
+    float: left;
+}
+.advantage-item h3{
+    padding-top: 25px;
+    padding-bottom: 30px;
+    letter-spacing: 0.15em;
+}
+
+/* IGNITE */
+.ignite {
+    background-color: #242830;
+    min-height: 105px;
+    text-align: center;
+    padding-top: 95px;
+}
+.ignite-btn {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    width: 295px;
+    padding: 30px;
+    letter-spacing: 0.15em;
+    font-weight: lighter;
+}
+
+/* OUR TEAM */
+.our-team {
+    background-color: #ffffff;
+    padding-top: 75px;
+    padding-bottom: 200px;
+    text-align: center;
+    min-height: 590px;
+}
+.our-team-wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+.our-team-wrapper .divider{
+    margin-left: 310px;
+}
+.our-team-list ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+.our-team-item {
+    width: 360px;
+    padding: 0 15px;
+    float: left;
+}
+.our-team-item img {
+    padding-bottom: 30px;
+}
+.our-team-item h3 {
+    padding-bottom: 30px;
+    letter-spacing: 0.15em;
+}
+.our-team-item p {
+    text-align: justify;
+}
+.social-links {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+.web {
+    background: url(../pic/web_icon.png) no-repeat center;
+    background-size: 15px 15px;
+}
+.twitter {
+    background: url(../pic/twitter_icon.png) no-repeat center;
+    background-size: 16px 13px;
+}
+.email {
+    background: url(../pic/email_icon.png) no-repeat center;
+    background-size: 16px 14px;
+}
+.social-link {
+    display: inline-block;
+    border: 1px solid #242830;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: #242830;
+}
+.social-link:hover {
+    border-color: #3dc9b3;
+    background-color: #3dc9b3;
+}
+
+/* SUBSCRIBE */
+.subscribe {
+    background: url("../pic/subscribe-bg.jpg") no-repeat center;
+    min-height: 450px;
+    text-align: center;
+}
+.subscribe-wrapper {
+    padding-top: 120px;
+    margin: 0 auto;
+    width: 555px;
+}
+.subscribe-wrapper h2 {
+    color: white;
+    letter-spacing: 0.15em;
+    padding-top: 5px;
+    padding-bottom: 35px;
+}
+.subscribe-form-group input {
+    vertical-align: top;
+    height: 65px;
+}
+.subscribe-button {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #3dc9b3;
+    border-radius: 2px;
+    background-color: #3dc9b3;
+    width: 100px;
+    letter-spacing: 0.15em;
+}
+.subscribe-form-group input[type="text"] {
+    border: 1px solid #ffffff;
+    background: inherit;
+    font: inherit;
+    color: #ffffff;
+    width: 330px;
+    height: 65px;
+    margin-right: 2px;
+    padding: 0 10px;
+}
+.arrow-up img {
+    position: relative;
+    right: 3px;
+    top: 123px;
+    z-index: 1;
+}
+
+/* CONTACTS */
+.contacts {
+    background: #f3f5f8;
+    min-height: 673px;
+    text-align: center;
+}
+.contacts-wrapper {
+    padding-top: 115px;
+    margin: 0 auto;
+    width: 1170px;
+}
+.contacts-wrapper .divider {
+    margin-left: 305px;
+}
+.contact-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 45px;
+}
+.contact-item {
+    width: 360px;
+    background-color: #ffffff;
+    margin: 0 15px;
+    padding-top: 30px;
+    float: left;
+}
+.contact-item-option {
+    color: #3dc9b3;
+    line-height: 1;
+    letter-spacing: 0.15em;
+}
+.contact-item-value {
+    padding: 10px 0;
+}
+.contacts-wrapper .social-links{
+    width: 166px;
+    height: 40px;
+    margin-left: 505px;
+    margin-top: 250px;
+}
+
+
+/* FOOTER */
+.page-footer {
+    background-color: #242830;
+    min-height: 65px;
+    padding-top: 55px;
+}
+.footer-wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+.footer-links a {
+    font-family: "GotamRounded Book", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #a1a9b0;
+    text-decoration: none;
+}

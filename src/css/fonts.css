@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "GothamRounded Book";
+    src: url("../fonts/GothamRounded-Book.woff");
+    font-style: normal;
+}
+@font-face {
+    font-family: "GothamRounded Medium";
+    src: url("../fonts/GothamRounded-Medium.woff");
+}
+@font-face {
+    font-family: "GothamRounded MediumItalic";
+    src: url("../fonts/GothamRounded-MediumItalic.woff");
+    font-style: italic;
+}
